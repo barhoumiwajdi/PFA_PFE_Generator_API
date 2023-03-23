@@ -6,7 +6,7 @@ exports.CreateBlog = async (req , res)=>{
         
     const Result = await Blog.create(req.body)
     
-    res.send(Result)
+    res.status(200).send(Result)
     
     
     } catch (error) {

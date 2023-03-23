@@ -7,10 +7,6 @@ const SaisonSchema = new Schema(
         Description: { type: String, required: [true, 'description obligatoire!'] },
         DateDebut: { type: Date, required: [true, 'date obligatoire!'] },
         Datefin: { type: Date, required: [true, 'date obligatoire!'] },
-
-
-       
-
     },
     {
         timestamps : true , versionKey : false
